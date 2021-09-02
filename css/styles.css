@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+:root{
+      /*Variables de color*/
+      --Azul: #2855AE;
+      --Azul2: #6789CA;
+      --GrisDark: #313131;
+      --Cafe: #777777;
+      --Gris: #A5A5A5;
+  
+      /*Variable de tamaño*/
+      --h1: 3.6rem;
+      --h2: 2.6rem;
+      --h3: 2rem;
+      --parafo : 1.6rem;
+}
+section{
+    max-width: 37.5rem;
+    height: auto; 
+    margin: auto;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.background{
+    width: 100%;
+    height: auto;
+}
